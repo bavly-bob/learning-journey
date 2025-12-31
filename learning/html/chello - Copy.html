@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Page</title>
+  <style>
+    body {
+      margin: 0; /* remove browser default margins */
+      font-family: Arial, sans-serif;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    #greeting {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center; /* center horizontally */
+      align-items: center;     /* center vertically */
+    }
+  </style>
+</head>
+<body>
+
+  <form onsubmit="greet(); return false;">
+    <input autocomplete="off" autofocus placeholder="name" id="name" name="name">
+    <input type="submit" value="Say Hello">
+  </form>
+
+  <div id="greeting"></div>
+
+  <script>
+    function greet() {
+      let name = document.getElementById("name").value;
+      document.getElementById("greeting").innerText = "Hello, " + name + "!";
+    }
+  </script>
+
+</body>
+</html>

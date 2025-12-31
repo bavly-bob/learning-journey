@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script>
+            function greet()
+            {
+            document.addEventListener('DOMContentLoaded', function()
+            {
+                document.querySelector('form').addEventListener
+                ('submit', function(e)
+                {
+                    alert('hello, ' + document.querySelector('#name').value);
+                    e.preventDefault();
+                });
+            });
+            }
+        </script>
+        <title>
+            hello
+        </title>
+    </head>
+    <body >
+        <form onsubmit="greet();return=false;">
+            <input autocomplete="off" autofocus placeholder="name" id = "name" name="name">
+            <input type="sumbit">
+        </form>
+    </body>
+</html>

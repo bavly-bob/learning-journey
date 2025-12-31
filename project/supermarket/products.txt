@@ -1,0 +1,10 @@
+101 Milk 50 25.50 Dairy
+102 Bread 100 5.00 Bakery
+103 Shampoo 40 120.00 Skin_Care
+104 Soap 80 15.75 Skin_Care
+105 Rice 200 30.00 Grocery
+106 Oil 60 95.25 Grocery
+107 Cheese 35 75.00 Dairy
+108 Apple 150 4.50 Fruit
+109 Orange 120 5.00 Fruit
+110 Toothpaste 70 45.00 Skin_Care

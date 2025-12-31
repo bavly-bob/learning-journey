@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void)
+{
+    int x = get_int("what do you want x to be\n ");
+    int y = get_int("what do you want y to be\n ");
+
+    if (x>y)
+    {
+        printf()
+    }
+}

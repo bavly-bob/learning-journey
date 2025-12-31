@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-white shadow z-50">
+    <div class="max-w-6xl mx-auto px-6 flex justify-between items-center h-16">
+      <h1 class="text-xl font-bold text-indigo-600">My Portfolio</h1>
+      <div class="space-x-6">
+        <a href="#about" class="text-gray-700 hover:text-indigo-600">About</a>
+        <a href="#projects" class="text-gray-700 hover:text-indigo-600">Projects</a>
+        <a href="#courses" class="text-gray-700 hover:text-indigo-600">Courses</a>
+        <a href="#contact" class="text-gray-700 hover:text-indigo-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-indigo-500 to-purple-600 text-white">
+    <h1 class="text-5xl font-bold mb-4">Hi, I'm Bavly Peter</h1>
+    <p class="text-xl mb-6">Aspiring Developer | Innovator | Problem Solver</p>
+    <a href="#contact" class="px-6 py-3 bg-white text-indigo-600 font-semibold rounded-full shadow-lg hover:bg-gray-100 transition">Contact Me</a>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-6">About Me</h2>
+    <p class="text-lg text-center text-gray-700">
+      I am passionate about technology, building innovative solutions, and constantly learning. This portfolio showcases some of my work and skills.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-gray-100 px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h3 class="text-xl font-semibold mb-2">Project One</h3>
+        <p class="text-gray-600">Description of your project goes here. Highlight technologies used.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h3 class="text-xl font-semibold mb-2">Project Two</h3>
+        <p class="text-gray-600">Description of your project goes here. Highlight technologies used.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h3 class="text-xl font-semibold mb-2">Project Three</h3>
+        <p class="text-gray-600">Description of your project goes here. Highlight technologies used.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">Courses I've Taken</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h3 class="text-xl font-semibold mb-2">CS50: Introduction to Computer Science</h3>
+        <p class="text-gray-600">Harvard's CS50 foundational course covering algorithms, data structures, and web development basics.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h3 class="text-xl font-semibold mb-2">Web Development Bootcamp</h3>
+        <p class="text-gray-600">Full-stack development course covering HTML, CSS, JavaScript, Node.js, and databases.</p>
+      </div>
+      <div class="bg-white rounded-2xl shadow-lg p-6 hover:shadow-2xl transition">
+        <h3 class="text-xl font-semibold mb-2">Machine Learning Basics</h3>
+        <p class="text-gray-600">Introduction to machine learning concepts, supervised/unsupervised learning, and Python libraries.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Get in Touch</h2>
+    <p class="mb-6 text-gray-700">Feel free to reach out to me through any of the platforms below.</p>
+    <div class="space-y-3">
+      <p>📧 Email: <a href="bavlypeter84@gmail.com" class="text-indigo-600 font-semibold">bavlypeter84@gmail.com</a></p>
+      <p>📱 Phone: <span class="font-semibold">+20 1273901605</span></p>
+      <p>🌐 LinkedIn: <a href="#" class="text-indigo-600 font-semibold">linkedin.com/in/yourprofile</a></p>
+    </div>
+  </section>
+
+  <footer class="py-6 text-center text-gray-500">
+    © 2025 Bavly Peter. All rights reserved.
+  </footer>
+
+  <script>
+    ScrollReveal().reveal('section', { delay: 200, distance: '50px', origin: 'bottom', interval: 200 });
+  </script>
+</body>
+</html>

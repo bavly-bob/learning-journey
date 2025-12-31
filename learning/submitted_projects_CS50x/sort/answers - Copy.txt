@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: because it take long time in random and reverse while taking very short time in all ready sorted (o(n^2), Ω(n))
+
+sort2 uses: merge sort
+
+How do you know?: Take short time in both sorted and unsorted
+
+sort3 uses: selection sort
+
+How do you know?: take long time in both cases sorted and unsorted
