@@ -1,0 +1,14 @@
+# CS50 large files
+*.mp4
+*.zip
+*.pdf
+*.exe
+*.out
+*.db
+*.png
+*.jpg
+
+# CS50 build artifacts
+a.out
+*.o
+*.dSYM/
