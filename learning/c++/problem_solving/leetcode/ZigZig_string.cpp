@@ -1,0 +1,42 @@
+/*
+https://leetcode.com/problems/zigzag-conversion/description/
+The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+
+P   A   H   N
+A P L S I I G
+Y   I   R
+
+And then read line by line: "PAHNAPLSIIGYIR"
+Write the code that will take a string and make this conversion given a number of rows:
+string convert(string s, int numRows);
+
+Input: s = "PAYPALISHIRING", numRows = 4
+Output: "PINALSIGYAHRPI"
+Explanation:
+P     I    N
+A   L S  I G
+Y A   H R
+P     I
+*/
+class Solution {
+public:
+    string convert(string s, int numRows) {
+        if (numRows == 1 || numRows >= s.size())
+            return s;
+
+        string result;
+        int cycle = 2 * numRows - 2;
+
+        for (int row = 0; row < numRows; row++) {
+            for (int j = row; j < s.size(); j += cycle) {
+                result += s[j];
+
+                int diag = j + cycle - 2 * row;
+                if (row != 0 && row != numRows - 1 && diag < s.size()) {
+                    result += s[diag];
+                }
+            }
+        }
+        return result;
+    }
+};
