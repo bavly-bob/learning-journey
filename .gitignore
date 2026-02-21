@@ -1,3 +1,6 @@
+# remove noise
+*.vscode
+
 # CS50 large files
 *.mp4
 *.zip

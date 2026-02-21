@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/baboa/OneDrive - aucegypt.edu/Desktop/coding/history/learning/c++/problem_solving",
+      "program": "c:/Users/baboa/OneDrive - aucegypt.edu/Desktop/coding/history/learning/c++/problem_solving/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
